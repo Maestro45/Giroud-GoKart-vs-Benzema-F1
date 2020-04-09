@@ -1,0 +1,110 @@
+/* body{
+    background: url(olivier-giroud-karim-benzema-2019-20_1b2yewv1sz7v81dupgslcv1yfw.png);
+    background-size: 100%;
+} */
+
+#container{
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    z-index: 2;
+}
+
+header{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom:50px;
+     
+}
+
+#raceTrack{
+    background: url(road.jpg) center left repeat-x;
+    height: 250px;
+    border-right: dashed 20px white;
+    box-sizing: border-box;
+}
+
+.car{
+    display: block;
+    position: relative;
+}
+
+#raceCar{
+    left: -35px;
+    top: 60px;
+}
+
+#goKart{
+    left: 80px;
+    top: 20px;
+}
+
+#raceInfoContainer{
+    width: 80%;
+    margin: 40px auto 0;
+    background: #002d40;
+    height: 200px;
+}
+
+#raceInfoContainer h2{
+    color: white;
+    border-bottom: solid 1px white;
+    padding: 20px 0;
+}
+
+.raceInfo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+.raceInfo span{
+    font-size: 18px;
+    display: block;
+    font-weight: normal;
+    color: white;
+}
+
+#raceInfo1{
+    color: #7696ba;
+}
+
+#raceInfo2{
+    color: red;
+}
+
+input[type = "button"]{
+    background: green;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px #444;
+}
+
+input#reset{
+    background: red;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#container2{
+    background: #002d40;
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    margin-top: -230px;
+    margin-left: -200px;
+    padding: 50px 20px 20px;
+    opacity: 1;
+    border-radius: 20px;
+    display: none;
+}
+
